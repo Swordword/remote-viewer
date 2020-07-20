@@ -3,12 +3,11 @@ import ReactDom from 'react-dom';
 
 const mainElement = document.createElement('div');
 document.body.appendChild(mainElement);
+import Home from './views/Home'
 
 const App = () => {
   return (
-    <h1>
-      Hi from a react app
-    </h1>
+    <Home></Home>
   )
 }
 
